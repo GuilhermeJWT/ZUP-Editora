@@ -14,7 +14,7 @@ import br.com.zup.conexao.Banco;
 import br.com.zup.model.ModelAutor;
 
 @WebServlet("/listaAutores")
-public class ListaAutores extends HttpServlet {
+public class ListaAutoresServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
