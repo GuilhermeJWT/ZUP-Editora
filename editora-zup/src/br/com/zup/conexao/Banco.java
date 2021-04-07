@@ -41,9 +41,6 @@ public class Banco {
 			if(modelAutor.getId() == id) {
 				repetidor.remove();
 			}
-			
 		}
-		
 	}
-
 }

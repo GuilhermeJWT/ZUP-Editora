@@ -27,6 +27,8 @@ public class AutorServlet extends HttpServlet {
 		Banco conexao = new Banco();
 		conexao.adiciona(modelAutor);
 		
+		response.sendRedirect("listaAutores");
+		
 	}
 
 }
