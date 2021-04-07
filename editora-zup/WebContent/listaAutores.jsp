@@ -11,8 +11,8 @@
 		<c:forEach items="${autores}" var="autor">
 			<li>
 			${autor.nome} - ${autor.email}
-			<a href="/editora-zup/editarAutor?=${autor.id}">Editar</a>
-			<a href="/editora-zup/removerAutor?=${autor.id}">Remover</a>
+			<a href="/editora-zup/exibeAutor?id=${autor.id}">Editar</a>
+			<a href="/editora-zup/removerAutor?id=${autor.id}">Remover</a>
 			</li>
 		</c:forEach>
 	</ul>
